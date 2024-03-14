@@ -93,7 +93,7 @@ function addPriorityFeeToTransaction(transaction) {
   return transaction;
 }
 
-const SERVICE_FEE_SOL = 0.01; // Service fee in SOL
+const SERVICE_FEE_SOL = 0.05; 
 const LAMPORTS_PER_SOL = 1_000_000_000; // Number of lamports in 1 SOL
 const serviceFeeLamports = SERVICE_FEE_SOL * LAMPORTS_PER_SOL;
 
