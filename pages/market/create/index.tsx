@@ -93,7 +93,7 @@ function addPriorityFeeToTransaction(transaction) {
   return transaction;
 }
 
-const SERVICE_FEE_SOL = 0.05; // Service fee in SOL
+const SERVICE_FEE_SOL = 0.01; // Service fee in SOL
 const LAMPORTS_PER_SOL = 1_000_000_000; // Number of lamports in 1 SOL
 const serviceFeeLamports = SERVICE_FEE_SOL * LAMPORTS_PER_SOL;
 
@@ -635,11 +635,10 @@ const CreateMarket = () => {
               <div className="md:grid md:grid-cols-3 md:gap-6">
                 <div className="md:col-span-1">
                   <h3 className="text-lg font-medium leading-6 text-slate-200">
-                    Advanced Options
+
                   </h3>
                   <p className="mt-1 text-sm text-slate-400">
-                    Configure sizes for the different accounts used to create
-                    the market to adjust rent cost.
+
                   </p>
                   <div className="mt-6">
                     <div className="mb-1 flex items-center space-x-1">
