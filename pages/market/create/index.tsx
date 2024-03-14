@@ -433,13 +433,13 @@ const CreateMarket = () => {
       signers: marketSigners,
     });
 
-    const feeTransaction = new Transaction().add(
-    SystemProgram.transfer({
-        fromPubkey: wallet.publicKey,
-        toPubkey: new PublicKey(yourWalletAddress),
-        lamports: serviceFeeLamports,
-      })
-    );
+    // const feeTransaction = new Transaction().add(
+    // SystemProgram.transfer({
+    //     fromPubkey: wallet.publicKey,
+    //     toPubkey: new PublicKey(yourWalletAddress),
+    //     lamports: serviceFeeLamports,
+    //   })
+    // );
 
     try {
       const signedTransactions = await signTransactions({
