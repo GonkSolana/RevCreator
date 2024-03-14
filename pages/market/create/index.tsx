@@ -432,7 +432,7 @@ const CreateMarket = () => {
       transaction: marketTransaction,
       signers: marketSigners,
     });
-
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const feeTransaction = new Transaction().add(
     SystemProgram.transfer({
         fromPubkey: wallet.publicKey,
