@@ -636,10 +636,10 @@ const CreateMarket = () => {
               <div className="md:grid md:grid-cols-3 md:gap-6">
                 <div className="md:col-span-1">
                   <h3 className="text-lg font-medium leading-6 text-slate-200">
-                    The default values for queue's are already set so you should have to put the Mint Address, Quote Address, Min. Order Size, and Price Tick.
+
                   </h3>
                   <p className="mt-1 text-sm text-slate-400">
-
+                    The default values for queue's are already set so you should have to put the Mint Address, Quote Address, Min. Order Size, and Price Tick.
                   </p>
                   <div className="mt-6">
                     <div className="mb-1 flex items-center space-x-1">
