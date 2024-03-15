@@ -28,13 +28,13 @@ export const HeaderLayout: FC<HeaderLayoutProps> = ({ title, children }) => {
             className="no-underline text-sm font-light flex items-center space-x-2 hover:font-medium focus-visible:outline-none rounded-sm focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:border-none"
           >
             <Image
-              src="/github.svg"
+              src="/rev.svg"
               width={24}
               height={24}
-              alt="Github"
+              alt="REV"
               className="cursor-pointer"
             />
-            <p>Thank you!</p>
+            <p>☎️ Contact Support</p>
           </a>
         </div>
       </div>
