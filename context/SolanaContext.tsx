@@ -46,14 +46,13 @@ const SolanaContext = createContext<SolanaContextType | null>(null);
 
 export const CLUSTER_LOCAL_STORAGE_KEY = "cluster-serum-explorer";
 
-export const LOCALNET_URL = "http://localhost:8899/";
+export const LOCALNET_URL = "https://mainnet.helius-rpc.com/?api-key=d88f1328-38da-4190-b35b-ec03ed219d52";
 
 export const CLUSTERS: SolanaCluster[] = [
   {
     label: "Mainnet Beta",
     network: "mainnet-beta",
-    endpoint:
-      process.env.NEXT_PUBLIC_MAINNET_URL || clusterApiUrl("mainnet-beta"),
+    endpoint: LOCALNET_URL,
   },
   {
     label: "Testnet",
