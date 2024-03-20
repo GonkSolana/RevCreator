@@ -644,7 +644,7 @@ const CreateMarket = () => {
                   <div className="mt-6">
                     <div className="mb-1 flex items-center space-x-1">
                       <p className="text-xs text-slate-300">
-                        Total Rent Estimate with service fee{" "}
+                        Total Rent Estimate with service fee(0.05SOL){" "}
                       </p>
                     </div>
 
