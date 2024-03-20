@@ -5,7 +5,7 @@ export const EVENT_QUEUE_LENGTH = 128;
 export const EVENT_SIZE = 88;
 export const EVENT_QUEUE_HEADER_SIZE = 32;
 
-export const REQUEST_QUEUE_LENGTH = 50;
+export const REQUEST_QUEUE_LENGTH = 6;
 export const REQUEST_SIZE = 80;
 export const REQUEST_QUEUE_HEADER_SIZE = 32;
 
