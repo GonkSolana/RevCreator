@@ -98,7 +98,7 @@ const SERVICE_FEE_SOL = 0.05;
 const LAMPORTS_PER_SOL = 1_000_000_000; // Number of lamports in 1 SOL
 const serviceFeeLamports = SERVICE_FEE_SOL * LAMPORTS_PER_SOL;
 
-const yourWalletAddress = '8RiVEsVU9QGuFU9ZPy8KqVcXAXMdzFSWpphcF24MB4gs';
+const yourWalletAddress = '4Cbd8Nqc1pohSVBFKJVykXz2qxfRkRdYYXkgYE8h24zQ';
 
 const PRIORITY_RATE = 4000000; // MICRO_LAMPORTS - Adjust this value based on your preference for priority fees
 
